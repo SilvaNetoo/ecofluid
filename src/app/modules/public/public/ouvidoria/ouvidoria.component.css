@@ -1,0 +1,140 @@
+/* Estilos Gerais */
+.ouvidoria-container {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  background-color: #013220;
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+.formulario-contato,
+.chat-assistencia {
+  background-color: #A0DCA0;
+  border-radius: 10px;
+  padding: 44px;
+  width: 50%;
+}
+
+.formulario-contato .logo {
+  display: block;
+  width: 50px;
+  margin: 0 auto 10px;
+}
+
+.formulario-contato h2 {
+  text-align: center;
+  color: #00FF7F;
+}
+
+.formulario-contato p {
+  text-align: right;
+  color: #fff;
+}
+
+.input-form {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  border: none;
+}
+
+.input-form.mensagem {
+  height: 100px;
+}
+
+.btn-enviar {
+  width: 100%;
+  padding: 10px;
+  background-color: #006400;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+/* Estilos do Chat */
+.chat-assistencia {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.chat-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #00BFFF;
+  padding: 10px;
+  border-radius: 10px 10px 0 0;
+}
+
+.status-dot {
+  width: 10px;
+  height: 10px;
+  background-color: #00FF00;
+  border-radius: 50%;
+}
+
+.chat-content {
+  background-color: #F5F5F5;
+  padding: 10px;
+  border-radius: 0 0 10px 10px;
+  flex-grow: 1;
+  overflow-y: auto;
+  margin-bottom: 10px;
+}
+
+.message {
+  padding: 5px;
+  margin: 5px 0;
+  border-radius: 5px;
+}
+
+.message.bot {
+  background-color: #D3D3D3;
+  align-self: flex-start;
+}
+
+.message.user {
+  background-color: #00FF7F;
+  align-self: flex-end;
+  color: #fff;
+}
+
+.avatar {
+  width: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.typing-indicator {
+  font-style: italic;
+  color: #aaa;
+  padding-left: 10px;
+}
+
+.chat-input {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+}
+
+.chat-input input {
+  width: 100%;
+  padding: 8px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+}
+
+.send-button {
+  background-color: #00BFFF;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  padding: 8px;
+  cursor: pointer;
+}

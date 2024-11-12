@@ -1,0 +1,233 @@
+/* Estilos gerais */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  background-color: #E0FFE0;
+  font-family: Arial, sans-serif;
+  height: 100%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 100%; /* Para ocupar toda a largura da tela */
+  max-width: 1200px; /* Limite de largura para telas grandes */
+  margin: 0 auto; /* Centraliza a página */
+  padding: 20px;
+}
+
+/* Cabeçalho */
+.header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.logo {
+  height: 80px; /* ajuste conforme necessário */
+}
+
+.nav {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-link {
+  font-size: 16px;
+  color: #004400;
+  text-decoration: none;
+  background-color: #004400;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.nav-link:hover {
+  background-color: #003300;
+}
+
+/* Conteúdo principal */
+.content {
+  max-width: 800px; /* Limita o texto para uma largura confortável */
+  margin-top: 50px;
+}
+
+.content h1 {
+  font-size: 40px;
+  color: #003300;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+.content p {
+  font-size: 32px;
+  color: #003300;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.cta-button {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 15px 30px;
+  background-color: #66ff66;
+  color: #003300;
+  text-decoration: none;
+  font-size: 19px;
+  font-weight: bold;
+  border-radius: 30px;
+}
+
+.cta-button:hover {
+  background-color: #55dd55;
+}
+
+/* Gráficos */
+.graphic {
+  margin-top: 50px;
+  position: relative;
+  width: 100%; /* Ocupa a largura total */
+  max-width: 600px; /* Limita o tamanho máximo */
+}
+
+.circle, .square {
+  border: 2px solid #003300;
+  position: absolute;
+}
+
+.circle {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  left: 0;
+  top: 0;
+}
+
+.square {
+  width: 120px;
+  height: 120px;
+  top: 50px;
+  left: 80px;
+  transform: rotate(45deg);
+}
+
+/* Seção "Quem somos?" */
+.quem-somos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  margin-top: 250px;
+  padding: 20px;
+  background-color: #E0FFE0; /* Fundo da paleta de cores */
+  border-radius: 8px;
+}
+
+/* Coluna esquerda com o texto */
+.quem-somos .coluna-esquerda {
+  flex: 1;
+  padding: 20px;
+  text-align: center;
+}
+
+.quem-somos h2 {
+  font-size: 2rem;
+  color: #003300;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.quem-somos p {
+  font-size: 1rem;
+  color: #004400;
+  line-height: 1.5;
+}
+
+/* Coluna direita com a imagem */
+.quem-somos .coluna-direita {
+  flex: 1;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quem-somos .coluna-direita img {
+  max-width: 60%;
+  height: auto;
+  border-radius: 8px;
+}
+
+
+/* Seção "Serviços" */
+.servicos {
+  margin-top: 50px;
+  padding: 40px;
+  background-color: #E0FFE0; /* Fundo similar ao restante do site */
+  border-radius: 8px;
+  text-align: center;
+}
+
+.servicos h2 {
+  font-size: 2rem;
+  color: #003300;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.servicos p {
+  font-size: 1rem;
+  color: #004400;
+  margin-bottom: 30px;
+}
+
+.servicos-grid {
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+}
+
+.servico-item {
+  width: 200px;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.servico-item img {
+  width: 110%;
+  height: auto;
+  border-radius: 8px;
+  border: 2px solid #003300;
+}
+
+.servico-item h3 {
+  font-size: 1.2rem;
+  color: #003300;
+  margin-top: 10px;
+  text-transform: uppercase;
+}
+
+/* Efeito de hover nos itens de serviço */
+.servico-item:hover {
+  transform: scale(1.05);
+}
+
+.eco-flow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  margin-top: 250px;
+  padding: 20px;
+  background-color: #E0FFE0; /* Fundo da paleta de cores */
+  border-radius: 8px;
+}

@@ -1,0 +1,46 @@
+.sobre-nos-container {
+  background-color: #53c29b;
+  color: #000;
+  text-align: center;
+  padding: 2rem;
+  font-family: Arial, sans-serif;
+}
+
+.logo img {
+  width: 100px;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  font-weight: bold;
+}
+
+.conteudo {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.secao {
+  width: 250px;
+  text-align: center;
+  margin: 1rem;
+}
+
+.icone img {
+  width: 50px;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
